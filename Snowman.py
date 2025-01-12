@@ -46,9 +46,15 @@ t.pendown()
 t.circle(2) #righteye
 
 t.penup()
-t.goto(-75,90)
+t.goto(-77,90)
 t.pendown()
 t.setheading(230)
-t.goto(-75,90)
+t.forward(150)
+
+t.penup()
+t.goto(92,90)
+t.pendown()
+t.setheading(310)
+t.forward(150)
 
 t.mainloop ()
